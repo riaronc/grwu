@@ -1,38 +1,168 @@
-.App {
-  text-align: center;
+/* Index landing pages */
+
+.header {
+    background-color: var(--purple);
+    width: 100vw;
+    margin-top: -1px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header img {
+    width: 100%;
+    height: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.how-it-works {
+    background-color: var(--white);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.how-it-works img {
+    max-width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.plans {
+    background-color: var(--purple);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hat, .btm {
+    width: 103vw;
 }
+
+.hat {
+    margin-bottom: -6px;
+}
+
+.btm {
+    margin-top: -6px;
+}
+
+.card {
+    display: inline-block;
+    background-color: var(--white);
+    border-radius: var(--card-radius);
+    transition: .3s;
+    border: solid 2px var(--white);
+}
+
+.card:hover {
+    border: solid 2px;
+    border-color: var(--cyan);
+    transition: .3s;
+}
+
+.card-items {
+    margin-top: -3rem;
+}
+
+.plans .card {
+    padding: 2rem;
+    width: 85%;
+}
+
+.plans .card img {
+    margin-top: -6rem;
+}
+
+.pros {
+    background-color: var(--white);
+    background-image: url('./img/pros-bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 130vh;
+}
+
+@media screen and (max-width: 790px) {
+    .pros {
+        background-image: url('./img/pros-sm-bg.svg');
+    }
+}
+
+.pros img {
+    width:  100%;
+}
+
+.feedback {
+    background-color: var(--purple);
+}
+
+.feedback-cards {
+    overflow: hidden;
+    width: 100%;
+}
+
+.feedback-cards-item {
+    padding: 1rem;
+    display: block;
+    float: left;
+    margin: 0 .5rem;
+}
+
+.feedback-cards-item .card {
+    padding: 1rem;
+}
+
+.feedback-cards-item .card .quote {
+    margin-top: -2.3rem;
+    display: block;
+}
+
+.feedback .rate img {
+    margin-right: 3%;
+    width: 10%;
+    height: auto;
+    display: inline-block;
+}
+
+.feedback-nav div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.feedback-nav ul {
+    display: flex;
+}
+
+.feedback-nav ul li {
+    display: inline-block;
+    outline: none;
+    height: 25px;
+    width: 25px;
+}
+
+.feedback-nav ul li button {
+    color: var(--transparent);
+    background-color: var(--white);
+    opacity: .2;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    border: solid 2px;
+    border-color: var(--transparent);
+    transition: .3s;
+    vertical-align: middle;
+}
+
+.slick-active button[aria-selected="true"] {
+    color: var(--transparent);
+    background-color: var(--transparent);
+    border-radius: 8px;
+    border: solid 2px;
+    width: 16px;
+    height: 16px;
+    border-color: var(--pink);
+    opacity: 1;
+    transition: .3s;
+}
+
+.join-us {
+    background-color: var(--white);
+}
+
+.join-us img {
+    width: 100%;
+}
+
+
+
+
