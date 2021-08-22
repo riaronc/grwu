@@ -4,7 +4,7 @@
     background-color: var(--purple);
     width: 100vw;
     margin-top: -1px;
-
+    overflow: hidden;
 }
 
 .header img {
@@ -26,7 +26,8 @@
 }
 
 .hat, .btm {
-    width: 103vw;
+    width: 103vw !important;
+    margin-left:  -6px;
 }
 
 .hat {
