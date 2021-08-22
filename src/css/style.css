@@ -412,9 +412,9 @@ nav p {
 @media screen and (max-width: 575px) {
 	.btn {
 		padding: .7rem 1.2rem;
-		min-width: 11rem;
+		min-width: 9rem;
 		font-size: .6rem;
-		margin: 0 .5rem
+		margin: .2rem .5rem
 	}
 
 	.buttons {
