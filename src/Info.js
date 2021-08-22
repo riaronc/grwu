@@ -32,7 +32,7 @@ function Info() {
                     </div>
                 </div>
                 <div className="w-100 bg-white">
-                    <img src="./img/index/index-head-bttm.svg" alt="" />
+                    <img src="./img/index/index-head-bttm.svg" alt="" class="btm" />
                 </div>
             </div>
             <div className="how-it-works text-center text-purple">
