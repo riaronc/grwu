@@ -139,7 +139,7 @@ function About() {
                             </h1>
                             <div className="text-sm-center">
                                 <div className="py-5 buttons">
-                                    <button className="btn btn-filled-purple font-weight-bold">ПІДПИСАТИСЯ</button>
+                                    <a href="growithyou.com"><button className="btn btn-filled-purple font-weight-bold">ПІДПИСАТИСЯ</button></a>
                                     <Link to={'/givetoys'}><button className="btn btn-outlined-pink font-weight-bold">ВІДДАТИ ІГРАШКИ</button></Link>
                                 </div>
                             </div>
