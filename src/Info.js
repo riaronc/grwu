@@ -236,7 +236,7 @@ function Info() {
                                 <img src="./img/index/quote-cyan.svg" alt="" className="quote" />
                                 <p className="py-3">Елена Р. <span className="text-muted float-right">3 дні тому</span></p>
                                 <p className="font-weight-bold">
-                                    дочь Аглая , 4 года
+                                    дочь Аглая, 4 года
                                 </p>
                                 <p className="py-3">
                                     Очень счастлива с вашей подпиской. Дочь очень радуется, что получает каждый месяц новые игрушки.
