@@ -74,7 +74,7 @@ function Header(props) {
                 <div className="lg-nav">
                     <ul>
                         <li className={headerWhite? 'nav-link-purple': 'nav-link'}>
-                            <a href="">Каталог іграшок</a>
+                            <a href="growithyou.com">Каталог іграшок</a>
                         </li>
                         <li className={headerWhite? 'nav-link-purple': 'nav-link'}>
                             <Link to={'/about'} onClick={() => handleRoutingNavbar()}><a href="">Про нас</a></Link>
@@ -99,10 +99,10 @@ function Header(props) {
                 <div className="container">
                     <ul>
                         <li>
-                            <a href="">Головна сторінка</a>
+                            <Link to={'/'}><a href="">Головна сторінка</a></Link>
                         </li>
                         <li>
-                            <a href="">Каталог іграшок</a>
+                            <a href="growithyou.com">Каталог іграшок</a>
                         </li>
                         <li>
                             <Link to={'/about'}><a href="">Про нас</a></Link>
