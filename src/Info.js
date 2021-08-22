@@ -16,11 +16,11 @@ function Info() {
                         <div className="col-md-6 col-12">
                             <div className="my-5">
                                 <h1 className="text-white text-huge">
-                                    Доступ до 200 іграшок всього за 300 гривень на місяць
+                                    Доступ до 200 іграшок всього за 500 гривень на місяць
                                 </h1>
                                 <div className="text-sm-center">
                                     <div className="py-5 buttons">
-                                        <button className="btn btn-filled-white font-weight-bold">ПІДПИСАТИСЯ</button>
+                                        <a href="growithyou.com"><button className="btn btn-filled-white font-weight-bold">ПІДПИСАТИСЯ</button></a>
                                         <Link to={'/givetoys'}><button className="btn btn-outlined-pink font-weight-bold">ВІДДАТИ ІГРАШКИ</button></Link>
                                     </div>
                                 </div>
@@ -78,8 +78,8 @@ function Info() {
                                     <span className="text-cyan">3</span> іграшки
                                 </h2>
                                 <p>Допитливий Енштейн - сто новий відкриттів</p>
-                                <h1 className="text-red py-5">300 грн</h1>
-                                <button className="btn btn-filled-purple">ПІДПИСАТИСЬ</button>
+                                <h1 className="text-red py-5">500 грн</h1>
+                                <a href="growithyou.com"><button className="btn btn-filled-purple">ПІДПИСАТИСЬ</button></a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-12 mx-auto">
@@ -89,8 +89,8 @@ function Info() {
                                     <span className="text-pink">5</span> іграшок
                                 </h2>
                                 <p>Винахідливий Тесла - тисяча радісних моментів</p>
-                                <h1 className="text-red py-5">400 грн</h1>
-                                <button className="btn btn-filled-purple">ПІДПИСАТИСЬ</button>
+                                <h1 className="text-red py-5">700 грн</h1>
+                                <a href="growithyou.com"><button className="btn btn-filled-purple">ПІДПИСАТИСЬ</button></a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-12 mx-auto">
@@ -100,8 +100,8 @@ function Info() {
                                     <span className="text-red">5</span> іграшок
                                 </h2>
                                 <p>Сміливий Маск - мільйон підкорених планет</p>
-                                <h1 className="text-red py-5">500 грн</h1>
-                                <button className="btn btn-filled-purple">ПІДПИСАТИСЬ</button>
+                                <h1 className="text-red py-5">900 грн</h1>
+                                <a href="growithyou.com"><button className="btn btn-filled-purple">ПІДПИСАТИСЬ</button></a>
                             </div>
                         </div>
                     </div>
@@ -121,7 +121,7 @@ function Info() {
                             <p className="font-weight-bold py-2">Економія часу та грошей</p>
                             <p>
                                 Витрачати час та гроші на купівлю іграшки, якими дитина перестане цікавитись за кілька днів?
-                                Звучить не надто казково:( Ми ж пропонуємо доступ до 200 іграшок всього за 3 кліки та 300 гривень на місяць
+                                Звучить не надто казково:( Ми ж пропонуємо доступ до 200 іграшок всього за 3 кліки та 500 гривень на місяць
                             </p>
                         </div>
                     </div>
@@ -164,7 +164,7 @@ function Info() {
                     </div>
                 </div>
                 <div className="text-center py-5">
-                    <button className="btn btn-filled-yellow font-weight-bold">ДІЗНАТИСЯ БІЛЬШЕ</button>
+                    <Link to={'/aboutus'}><button className="btn btn-filled-yellow font-weight-bold">ДІЗНАТИСЯ БІЛЬШЕ</button></Link>
                 </div>
 
             </div>
@@ -179,13 +179,12 @@ function Info() {
                         <div className="feedback-cards-item">
                             <div className="card my-5 text-purple">
                                 <img src="./img/index/quote-red.svg" alt="" className="quote" />
-                                <p className="py-3">Лена К. <span className="text-muted float-right">3 дні тому</span></p>
+                                <p className="py-3">Ольга Б.<span className="text-muted float-right">7 днів тому</span></p>
                                 <p className="font-weight-bold">
-                                    Очень счастлива с подпиской на игрушки
+                                    син Ярослав, 4 роки 
                                 </p>
                                 <p className="py-3">
-                                    Очень счастлива с подпиской на игрушки. Сын очень радуется, что каждый месяц получает бокс с новыми
-                                    игрушками
+                                    Ми в захваті! Вже думаю, що замовляти сину наступного місяця!
                                 </p>
                                 <div className="rate">
                                     <img src="./img/index/star.svg" alt="" />
@@ -199,13 +198,12 @@ function Info() {
                             <div className="h-lg-3"></div>
                             <div className="card my-5 text-purple">
                                 <img src="./img/index/quote-pink.svg" alt="" className="quote" />
-                                <p className="py-3">Лена К. <span className="text-muted float-right">3 дні тому</span></p>
+                                <p className="py-3">Лиза В. <span className="text-muted float-right">3 дні тому</span></p>
                                 <p className="font-weight-bold">
-                                    Очень счастлива с подпиской на игрушки
+                                    сын Марк, 3 месяца
                                 </p>
                                 <p className="py-3">
-                                    Очень счастлива с подпиской на игрушки. Сын очень радуется, что каждый месяц получает бокс с новыми
-                                    игрушками
+                                    Честно, я в восторге от вашей идеи;) Игрушки отличные, новые, чистые! Я хочу новые заказать на следующий месяц.
                                 </p>
                                 <div className="rate">
                                     <img src="./img/index/star.svg" alt="" />
@@ -218,52 +216,12 @@ function Info() {
                         <div className="feedback-cards-item">
                             <div className="card my-5 text-purple">
                                 <img src="./img/index/quote-yellow.svg" alt="" className="quote" />
-                                <p className="py-3">Лена К. <span className="text-muted float-right">3 дні тому</span></p>
+                                <p className="py-3">Світлана К. <span className="text-muted float-right">4 дні тому</span></p>
                                 <p className="font-weight-bold">
-                                    Очень счастлива с подпиской на игрушки
+                                    син Богдан, 5 років
                                 </p>
                                 <p className="py-3">
-                                    Очень счастлива с подпиской на игрушки. Сын очень радуется, что каждый месяц получает бокс с новыми
-                                    игрушками
-                                </p>
-                                <div className="rate">
-                                    <img src=".//index/star.svg" alt="" />
-                                    <img src="./img/index/star.svg" alt="" />
-                                    <img src="./img/index/star.svg" alt="" />
-                                    <img src="./img/index/star.svg" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="feedback-cards-item">
-                            <div className="h-lg-3"></div>
-                            <div className="card my-5 text-purple">
-                                <img src="./img/index/quote-cyan.svg" alt="" className="quote" />
-                                <p className="py-3">Лена К. <span className="text-muted float-right">3 дні тому</span></p>
-                                <p className="font-weight-bold">
-                                    Очень счастлива с подпиской на игрушки
-                                </p>
-                                <p className="py-3">
-                                    Очень счастлива с подпиской на игрушки. Сын очень радуется, что каждый месяц получает бокс с новыми
-                                    игрушками
-                                </p>
-                                <div className="rate">
-                                    <img src="./img/index/star.svg" alt="" />
-                                    <img src="./img/index/star.svg" alt="" />
-                                    <img src="./img/index/star.svg" alt="" />
-                                    <img src="./img/index/star.svg" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="feedback-cards-item">
-                            <div className="card my-5 text-purple">
-                                <img src="./img/index/quote-yellow.svg" alt="" className="quote" />
-                                <p className="py-3">Лена К. <span className="text-muted float-right">3 дні тому</span></p>
-                                <p className="font-weight-bold">
-                                    Очень счастлива с подпиской на игрушки
-                                </p>
-                                <p className="py-3">
-                                    Очень счастлива с подпиской на игрушки. Сын очень радуется, что каждый месяц получает бокс с новыми
-                                    игрушками
+                                    Рада, що нарешті з'явився такий сервіс! Вже отримала іграшки, все супергарне і якісне:)
                                 </p>
                                 <div className="rate">
                                     <img src="./img/index/star.svg" alt="" />
@@ -276,13 +234,12 @@ function Info() {
                         <div className="feedback-cards-item">
                             <div className="card my-5 text-purple">
                                 <img src="./img/index/quote-cyan.svg" alt="" className="quote" />
-                                <p className="py-3">Лена К. <span className="text-muted float-right">3 дні тому</span></p>
+                                <p className="py-3">Елена Р. <span className="text-muted float-right">3 дні тому</span></p>
                                 <p className="font-weight-bold">
-                                    Очень счастлива с подпиской на игрушки
+                                    дочь Аглая , 4 года
                                 </p>
                                 <p className="py-3">
-                                    Очень счастлива с подпиской на игрушки. Сын очень радуется, что каждый месяц получает бокс с новыми
-                                    игрушками
+                                    Очень счастлива с вашей подпиской. Дочь очень радуется, что получает каждый месяц новые игрушки.
                                 </p>
                                 <div className="rate">
                                     <img src="./img/index/star.svg" alt="" />
@@ -325,8 +282,8 @@ function Info() {
                             </h1>
                             <div className="text-sm-center">
                                 <div className="py-5 buttons">
-                                    <button className="btn btn-filled-purple font-weight-bold">ПІДПИСАТИСЯ</button>
-                                    <button className="btn btn-outlined-pink font-weight-bold">ВІДДАТИ ІГРАШКИ</button>
+                                    <a href="growithyou.com"><button className="btn btn-filled-purple font-weight-bold">ПІДПИСАТИСЯ</button></a>
+                                    L<Link to={'/givetoys'}><button className="btn btn-outlined-pink font-weight-bold">ВІДДАТИ ІГРАШКИ</button></Link>
                                 </div>
                             </div>
                         </div>
