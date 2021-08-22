@@ -283,7 +283,7 @@ function Info() {
                             <div className="text-sm-center">
                                 <div className="py-5 buttons">
                                     <a href="growithyou.com"><button className="btn btn-filled-purple font-weight-bold">ПІДПИСАТИСЯ</button></a>
-                                    L<Link to={'/givetoys'}><button className="btn btn-outlined-pink font-weight-bold">ВІДДАТИ ІГРАШКИ</button></Link>
+                                    <Link to={'/givetoys'}><button className="btn btn-outlined-pink font-weight-bold">ВІДДАТИ ІГРАШКИ</button></Link>
                                 </div>
                             </div>
                         </div>
